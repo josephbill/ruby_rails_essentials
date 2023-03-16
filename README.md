@@ -6,25 +6,23 @@ application up and running.
 Things you may want to cover:
 
 * Ruby version
-
+3.1.2
 * System dependencies
-
+check GEMFILE
 * Configuration
+- rails db:migrate 
+- rails server 
 
 * Database creation
+- rails db:migrate 
+- rails server 
 
 * Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- sqlite in use 
 
 
 
+# sample form builder generated code , check partial _form.html.erb
 
 <form action="/articles" accept-charset="UTF-8" method="post">
   <input type="hidden" name="authenticity_token" value="...">
